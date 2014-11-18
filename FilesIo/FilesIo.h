@@ -12,7 +12,7 @@ namespace FilesIo
 	
 
 	// read function
-	__declspec(dllexport) std::vector<std::vector<double>> read(std::string path, int skip = 0, bool onscreen = false);
+	__declspec(dllexport) std::vector<std::vector<double>> import(std::string path, int skip = 0, bool onscreen = false);
 
 	// write function
 	__declspec(dllexport) std::vector<std::vector<double>> write(std::string path);

@@ -11,7 +11,7 @@ namespace FilesIo
 {
 
 	// read function
-	vector<vector<double>> read(string path, int skip, bool onscreen)
+	vector<vector<double>> import(string path, int skip, bool onscreen)
 	{
 
 		vector<vector<double>> arr = {};
