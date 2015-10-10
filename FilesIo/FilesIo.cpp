@@ -11,7 +11,7 @@ using namespace std;
 namespace FilesIo
 {
 
-	// read function
+	// read function : import array of double
 	vector<vector<double>> importD(string path, int skip, int toline, char delim, bool onscreen)
 	{
 		vector<vector<double>> arr = {};
